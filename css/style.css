@@ -1,0 +1,114 @@
+/* Add this to style.css or directly in the HTML */
+:root {
+    --primary-color: #33a0e4;
+    --background-color: #8BC6EC;
+    --background-gradient: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    --text-color: #ffffff;
+    --box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    --border-radius: 10px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    background-image: var(--background-gradient);
+  }
+  
+  .wrapper {
+    max-width: 410px;
+    padding: 16px 25px;
+    background: rgba(31, 31, 31, 0.35);
+    box-shadow: var(--box-shadow);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: var(--border-radius);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: height 0.2s ease;
+  }
+  
+  .wrapper.active {
+    height: auto; /* Adjust to content height */
+  }
+  
+  header h1 {
+    font-size: 21px;
+    font-weight: 500;
+    color: var(--text-color);
+  }
+  
+  header p {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-top: 5px;
+  }
+  
+  .form {
+    margin: 20px 0 25px;
+  }
+  
+  .form input,
+  .form button {
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: var(--border-radius);
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: var(--box-shadow);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: var(--text-color);
+  }
+  
+  .form input {
+    font-size: 18px;
+    padding: 0 17px;
+  }
+  
+  .form button {
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 17px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    transition: background 0.3s ease;
+  }
+  
+  .form button:hover {
+    background: darken(var(--primary-color), 10%);
+  }
+  
+  .ss-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 33px 0;
+    border-radius: var(--border-radius);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+  }
+  
+  .wrapper.active .ss-img {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .responsive {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
