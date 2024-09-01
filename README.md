@@ -26,4 +26,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or feedback, please contact [github@rojansapkota.com.np](mailto:github@rojansapkota.com.np).
+For any questions or feedback, please contact [Rojan](mailto:github@rojansapkota.com.np).
