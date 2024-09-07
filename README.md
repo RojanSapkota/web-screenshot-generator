@@ -11,6 +11,14 @@ A simple web app to generate high-quality screenshots from any URL.
 - **Minimal UI**: A clean and intuitive interface for a seamless user experience.
 - **Easy to Use**: Simply paste the URL and click to generate a screenshot.
 - **Efficient**: Fast and reliable screenshot generation for any web page.
+  
+  
+<h2 align="left">👤 Repo Visitors:</h2>
+<p align="left">
+<a href="https://rojansapkota.com.np" target="_blank">
+<img src="https://profile-counter.glitch.me/RojanSapkota_web-screenshot-generator/count.svg" alt="Visitor Counter"/>
+</a>
+</p>
 
 ## Getting Started
 
