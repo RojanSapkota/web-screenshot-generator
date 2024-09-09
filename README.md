@@ -3,7 +3,7 @@
 A simple web app to generate high-quality screenshots from any URL.
 
 <a href="https://ss.rojansapkota.com.np/">
-         <img alt="Image" src="http://image.thum.io/get/width/1200/https://ss.rojansapkota.com.np/">
+         <img alt="Image" src="http://image.thum.io/get/width/1200/https://ss.rojansapkota.com.np">
       </a>
 
 ## Features
