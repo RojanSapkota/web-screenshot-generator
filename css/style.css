@@ -26,10 +26,16 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     min-height: 100vh;
     overflow-x: hidden;
+    width: 100%;
     background: var(--bg-primary);
     position: relative;
 }
@@ -39,8 +45,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: -1;
     background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
     overflow: hidden;
@@ -328,6 +334,12 @@ header p {
     border-radius: 8px;
     display: block;
     box-shadow: var(--shadow-lg);
+    cursor: pointer;
+    transition: transform var(--transition-base);
+}
+
+.responsive:hover {
+    transform: scale(1.02);
 }
 
 .action-buttons {
@@ -614,20 +626,6 @@ header p {
 
 .zoom-image:active {
     cursor: grabbing;
-}
-
-.responsive {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    display: block;
-    box-shadow: var(--shadow-lg);
-    cursor: pointer;
-    transition: transform var(--transition-base);
-}
-
-.responsive:hover {
-    transform: scale(1.02);
 }
 
 /* Responsive Design */
